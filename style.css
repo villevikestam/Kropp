@@ -1,0 +1,27 @@
+.cent {
+    top: 50%;
+    left: 50%;
+     position: absolute;
+      transform: translate(-50%, -50%);
+}
+
+
+body {
+    margin: 0;
+}
+
+img {
+    position:absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+
+.centered {
+    top: 80%;
+    left: 50%;
+     position: absolute;
+      transform: translate(-50%, -50%);
+}
